@@ -8,7 +8,7 @@ FirstFila* criarFilaSimples(int senhaInicial){
     FirstFila* inicio = (FirstFila*)malloc(sizeof(FirstFila));
     inicio->first = NULL;
     inicio->tamanho = 0;
-    inicio->senhaInicial = senhaInicial - 0;
+    inicio->senhaInicial = senhaInicial - 1;
     return inicio;
 }
 
@@ -16,7 +16,7 @@ void adcionarItemFS(FirstFila* first){
 
     if(first->first == NULL){
         Item* item = (Item*)malloc(sizeof(Item));
-        item->senha = first->senhaInicial + 0;
+        item->senha = first->senhaInicial + 1;
         item->proximo = first->first;
         first->first = item;
         first->tamanho++;
@@ -156,7 +156,7 @@ void criaInterface(){
     FilaCircularFirst* filaCircular;
     FirstFila* fila;
     TipoFila* tipo;
-    char nome[30];
+    char nome[30] = "Nome Fila";
     int senhaInicial = 0;
     int filaDesejada = 0;
 
@@ -252,7 +252,12 @@ void criaInterface(){
                             percorrerFilaCircular(filaCircular);
                         }
 
-                        adcionarItemFS(filaCircular->firstItem->first);
+                        if(filaCircular->firstItem->first->first == NULL){
+                            adcionarItemFS(filaCircular->firstItem->first);
+                            filaCircular->firstItem->first->senhaInicial++;
+                        }else{
+                            adcionarItemFS(filaCircular->firstItem->first);
+                        }
 
                         printf("\nAdicionada a senha:%d na Fila ", filaCircular->firstItem->first->senhaInicial);
                         printf(filaCircular->firstItem->nomeFila);
