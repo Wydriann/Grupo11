@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1606850170 source:c:\temp\wp-trabalhoc\grupo11\filas\filatad.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<stdbool.h>
+	"filaTAD.h"
+
+1606850172 c:\temp\wp-trabalhoc\grupo11\filas\filatad.h
+
+1606850168 source:c:\temp\wp-trabalhoc\grupo11\filas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"filaTAD.h"
+

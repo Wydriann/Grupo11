@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1606852246 source:c:\temp\wp-trabalhoc\grupo11\stackvector\mainv.c
+	<stdio.h>
+	<stdlib.h>
+	"swv.h"
+
+1606851078 c:\temp\wp-trabalhoc\grupo11\stackvector\swv.h
+
+1606851072 source:c:\temp\wp-trabalhoc\grupo11\stackvector\swv.c
+	<stdio.h>
+	<stdlib.h>
+	"swv.h"
+
+1606851072 source:c:\temp\wp-c\grupo11\stackvector\swv.c
+	<stdio.h>
+	<stdlib.h>
+	"swv.h"
+
+1606851078 c:\temp\wp-c\grupo11\stackvector\swv.h
+

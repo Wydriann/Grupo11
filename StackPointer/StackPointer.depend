@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1606848568 source:c:\temp\wp-trabalhoc\grupo11\stackpointer\main.c
+	<stdio.h>
+	<stdlib.h>
+	"swp.h"
+
+1606848496 c:\temp\wp-trabalhoc\grupo11\stackpointer\swp.h
+
+1606848511 source:c:\temp\wp-trabalhoc\grupo11\stackpointer\swp.c
+	<stdio.h>
+	<stdlib.h>
+	"swp.h"
+
+1606852489 source:c:\temp\wp-c\grupo11\stackpointer\main.c
+	<stdio.h>
+	<stdlib.h>
+	"swp.h"
+
+1606848496 c:\temp\wp-c\grupo11\stackpointer\swp.h
+
+1606848511 source:c:\temp\wp-c\grupo11\stackpointer\swp.c
+	<stdio.h>
+	<stdlib.h>
+	"swp.h"
+
